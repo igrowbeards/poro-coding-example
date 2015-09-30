@@ -1,7 +1,6 @@
-# OnceThere Developer Code Test 
-## Written by Justin Edwards on 7-16-15
+# Sample Code
 
-### Instructions:
+## Instructions:
 
     > A task object has 3 variables.
     >
@@ -24,7 +23,7 @@
     >
     > cheers and good luck!
 
-### To Run the Specs:
+## To Run the Specs:
 
 Just run
 
@@ -34,6 +33,11 @@ $> ruby task_test.rb && ruby task_timer_test.rb
 
 from the root directory.
 
-I can be contacted at justin@igrowbeards.com or by phone at 903-920-9514. I hope to hear from you soon.
+## Assumptions
+  * Enforcing uniqueness of task id's is out of scope of this exercise
 
-Thanks again for your time :)
+## Wrapping Up
+
+Thanks again for your time, I can be contacted at justin@igrowbeards.com or by phone at 903-920-9514. I hope to hear from you soon.
+
+

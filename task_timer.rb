@@ -18,9 +18,7 @@ class TaskTimer
     @total_time ||= 0
     @total_time += task.duration
     dependent_task = find_task_by_id(task.dependency_id)
-    if dependent_task
-      time_for_task(dependent_task)
-    end
+    time_for_task(dependent_task) if dependent_task
     @total_time
   end
 
